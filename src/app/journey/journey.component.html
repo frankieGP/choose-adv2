@@ -1,0 +1,8 @@
+
+<h2>Journey</h2>
+
+<div *ngFor="let path of paths" (click)="goToDetailPage(path)"class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{path.option}}</em></h3>
+  </div>
+</div>
